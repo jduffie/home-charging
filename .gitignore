@@ -1,0 +1,14 @@
+# secrets / env
+.env
+
+# python
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# local data exports
+/exports/
+*.export.csv
+*.log
