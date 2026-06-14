@@ -27,12 +27,15 @@ Owns the canonical `$/kWh` rate and the situational-question prompts; owns nothi
 tied to a specific vehicle.
 
 Each stage lands in one of three buckets, per the rules above: **situational** →
-a `prompts/` file; **local/concrete** → `rates/`, `charger/`, `electrical/`;
-**not-yet-built** → an interest-gauged `docs/roadmap.md` item. Keep the README
-stage table and this list in sync when stages move between buckets.
+a `prompts/` file; **local/concrete** → `rates/`, `charger/`, `electrical/`
+(**neutral templates a forker fills with their own facts — no personal install
+data ships in this repo**); **not-yet-built** → an interest-gauged
+`docs/roadmap.md` item. Keep the README stage table and this list in sync when
+stages move between buckets.
 
-Hardware-neutral guidance; the specific device for this install lives in
-`charger/` (currently TBD).
+Hardware-neutral guidance; `charger/` is a neutral template where a forker records
+their own device's specifics (currently a TODO stub) — it is **not** branded to any
+device. The `rates/` constant ships as a placeholder default, not a real figure.
 
 **Status: scaffold.**
 

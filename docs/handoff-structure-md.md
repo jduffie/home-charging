@@ -74,6 +74,38 @@ If `STRUCTURE.md` ever grows prompt-authoring guidance/examples, this is a good
 exemplar of a reusable convention — *surface the unlock and the regulatory gate,
 vendor-neutrally* — but that's optional, not a required edit.
 
+## Fourth update (added later) — `home-charging` fully de-personalized (no brand, no personal data)
+
+**Requires a work-repo `CLAUDE.md` edit you must make — I can't from a
+home-charging session.** The owner decided `home-charging` ships as a **neutral
+fork-and-use skeleton**: `rates/`, `charger/`, `electrical/` are now neutral
+templates a forker fills with *their own* facts — **no personal install data, and
+no device brand, anywhere in the repo.** This **reverses** the earlier "total
+Emporia de-brand *except* `charger/`" decision: `charger/` is now de-branded too
+(the exception only made sense under the old "`charger/` = my real device" model,
+which is gone).
+
+What changed in `repos/home-charging` (committed on `main`):
+- `charger/README.md` — dropped "Emporia Pro" from title + body; now a neutral
+  "record your charger's specifics here" template.
+- `rates/README.md` — `0.14` relabeled a **placeholder** (was "EDIT ME"); the
+  "referenced by vehicles (`ford-lightning`, `vw-id4`)" bullet generalized to
+  "referenced downstream / downstream cost dashboards" (consumer README names no
+  specific vehicles).
+- `electrical/README.md` — "this house / the install" → "your house / your install".
+- `README.md` — stage-table `local →` cells → `yours →`; neutralized the
+  "specific device for this install lives in `charger/`" line.
+- `CLAUDE.md` (child) — bucket description now says the middle bucket is neutral
+  templates with no personal data; kept the rate-dependency rule + vehicle names
+  (maintainer/architecture doc, not consumer content).
+
+**Please update the work-repo (`garage-workspace/CLAUDE.md`):** the "Asset
+profiles" table row for `home-charging` lists hardware **"Emporia Pro w/ load
+management"** — that device is no longer documented anywhere in the repo. Change
+it to a neutral descriptor (e.g. "smart charger w/ load management; vendor-neutral
+template — no device brand"). Also reconcile the earlier "Optional" note below if
+you act on it.
+
 ## Optional, your call
 
 The workspace `CLAUDE.md` "Asset profiles" charger row currently reads
