@@ -10,6 +10,8 @@ Dependency direction: vehicles depend on this repo. Never the reverse.
 
 **Status: scaffold.**
 
+New here / just want to charge at home? → **[docs/start-here.md](docs/start-here.md)**
+
 ## I want to charge at home. The lifecycle:
 
 | Stage | The question | Where it's answered |
