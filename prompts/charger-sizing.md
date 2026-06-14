@@ -2,18 +2,37 @@
 
 Use when deciding what home EV charger to buy and how to wire it. The answer
 depends on your home, car, and habits, so this isn't something a repo can answer
-directly — paste the prompt below into Claude, ChatGPT, or any assistant and let
-it interview you about your situation, then reason from your answers.
+directly — paste the prompt below into Claude, ChatGPT, or any assistant. It uses
+whatever you can give it — photos of your panel, a vehicle spec sheet, location
+lookups — and interviews you for the rest, then reasons from your answers.
 
 These are starting points. Confirm anything load- or code-related with a licensed
 electrician before you buy or wire.
 
 ```
 You are helping me size and plan a home Level 2 EV charger install. Don't make me
-fill in a form — interview me. Ask for the details below a few at a time, wait for
-my answers, and ask follow-ups on anything unclear before you recommend anything.
+fill in a form. First ask which inputs I can give you, use whatever reduces the
+questions, then interview me for the rest — a few at a time, waiting for my answers
+and asking follow-ups before you recommend anything.
 
-Gather:
+A. Photos / documents — read what you can from these before asking:
+- a photo of my main electrical panel, door open (main breaker amperage, spare
+  breaker spaces, and existing big loads inferred from the breaker labels)
+- a photo of any sub-panel I'd feed from (feeder breaker, bus rating, spare spaces)
+- a photo of where the charger will mount and where the car parks (reach + which
+  side the charge port is on)
+- my vehicle's window sticker / spec page (onboard AC charge rate, battery size)
+- a recent utility bill (identifies my utility for permit/program rules)
+
+B. Lookups — only if you can browse or call APIs:
+- which utility serves my address, and any EV charging rebates / programs (e.g. the
+  DSIRE incentive database; NREL/OpenEI for the serving utility)
+- the electrical code edition (NEC) my state / AHJ has adopted — it affects whether
+  managed-load (EVEMS) circuit sizing is allowed; if you can't confirm my local
+  adoption, tell me to check with my AHJ rather than assuming
+- my vehicle's onboard AC charge rate + battery size by make / model / year / trim
+
+C. Interview me for anything the above didn't cover:
 - where I live (climate + likely utility/permit rules)
 - which electrical code edition / authority having jurisdiction (AHJ) governs
   where I live — it affects whether managed-load (EVEMS) circuit sizing is allowed
@@ -59,5 +78,7 @@ capabilities instead of recommending new hardware.
 
 ## Notes
 - Vendor-neutral on purpose — works in any assistant.
-- It interviews you rather than asking you to pre-fill a form — so you don't need
-  every number handy up front; answer what you know and it'll ask for the rest.
+- Three input paths, best-first: **photos/docs** (a panel photo is the big one —
+  amperage, spare spaces, existing loads at a glance) → **location lookups** (serving
+  utility, EV rebates, your AHJ's adopted code edition; needs an assistant that can
+  browse) → **interview** for the rest. You don't need every number handy up front.
