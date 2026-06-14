@@ -28,3 +28,6 @@ On mobile and just want the raw text? Swap `github.com/.../blob/` for
 These prompts are **starting points, not gospel.** Confirm anything wiring- or
 code-related with a licensed electrician, and rate-plan details with your utility,
 before you buy, wire, or switch.
+
+Informational only — **not** professional advice, and prompt output is AI-generated
+and may be wrong. Full terms: [../DISCLAIMER.md](../DISCLAIMER.md).

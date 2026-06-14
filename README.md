@@ -26,3 +26,7 @@ New here / just want to charge at home? → **[docs/start-here.md](docs/start-he
 Situational stages ship a copy-paste **prompt** (depends on *your* home); local
 stages hold the concrete facts for this install; the rest is **interest-gauged**
 on the [roadmap](docs/roadmap.md) — nothing there gets built until it's voted.
+
+> ⚠️ Informational only — **not** professional advice. Electrical work is
+> hazardous; verify everything with a licensed electrician and your local AHJ.
+> See **[DISCLAIMER.md](DISCLAIMER.md)**.
