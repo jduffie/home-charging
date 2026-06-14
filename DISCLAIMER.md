@@ -1,7 +1,5 @@
 # Disclaimer
 
-**Draft — pending attorney review. Not yet legal-vetted.**
-
 This repository provides general, informational content about home EV charging,
 including copy-paste prompts for AI assistants. Read this before relying on
 anything here.
