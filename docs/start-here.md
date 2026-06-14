@@ -9,8 +9,9 @@ interview you for the details it needs, then reason about your situation.
 | 1. Plan & install | Getting a charger in — which one, and wired safely | [prompts/charger-sizing.md](../prompts/charger-sizing.md) |
 | 2. Cost basis | What charging actually costs you | [rates/](../rates/) · [prompts/rate-estimate.md](../prompts/rate-estimate.md) |
 | 3. Configure | Setting up the charger once it's in | *still being filled in* → [charger/](../charger/) |
-| 4 & 6. Operate & optimize | Charging at the cheapest time, on the right plan | [prompts/when-to-charge.md](../prompts/when-to-charge.md) |
+| 4. Operate | Charging at the cheapest time of day | [prompts/when-to-charge.md](../prompts/when-to-charge.md) |
 | 5. Monitor | Keeping an eye on usage and cost over time | *on the roadmap* → [roadmap.md](roadmap.md) |
+| 6. Optimize | Being on the right rate plan | [prompts/when-to-charge.md](../prompts/when-to-charge.md) |
 
 ## How to use a prompt
 
