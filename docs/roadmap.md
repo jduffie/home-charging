@@ -1,7 +1,7 @@
 # Roadmap
 
-Interest-gauged. Each item below is a draft GitHub issue body. Open it as an
-issue, react 👍 to vote. **Nothing here gets built until it's voted.**
+Interest-gauged. Each item below is now an **open GitHub issue** — click through and
+**react 👍 to vote.** Nothing here gets built until it's voted.
 
 ---
 
@@ -14,7 +14,7 @@ vehicle Expense dashboards that depend on a single number — so it's a delibera
 voted change, not a snap edit. Until then: flat rate in `rates/`, and the
 [when-to-charge](../prompts/when-to-charge.md) prompt covers the operating side.
 
-👍 to vote.
+[👍 Vote — issue #5](https://github.com/jduffie/home-charging/issues/5)
 
 ---
 
@@ -23,7 +23,7 @@ voted change, not a snap edit. Until then: flat rate in `rates/`, and the
 Capture per-session data (date, kWh delivered, duration, cost at the canonical
 `rates/` value) so charging history is queryable over time.
 
-👍 to vote.
+[👍 Vote — issue #1](https://github.com/jduffie/home-charging/issues/1)
 
 ---
 
@@ -32,7 +32,7 @@ Capture per-session data (date, kWh delivered, duration, cost at the canonical
 Surface what the Emporia Pro's load management is actually doing — when it
 throttles, by how much, and why — instead of it being an invisible black box.
 
-👍 to vote.
+[👍 Vote — issue #2](https://github.com/jduffie/home-charging/issues/2)
 
 ---
 
@@ -41,7 +41,7 @@ throttles, by how much, and why — instead of it being an invisible black box.
 Export charging + energy data (CSV/JSON) for use in vehicle Expense dashboards
 and external spreadsheets, using the canonical `$/kWh` rate.
 
-👍 to vote.
+[👍 Vote — issue #3](https://github.com/jduffie/home-charging/issues/3)
 
 ---
 
@@ -50,4 +50,4 @@ and external spreadsheets, using the canonical `$/kWh` rate.
 Pull the Emporia Pro / energy data into Home Assistant for automation,
 dashboards, and alerts.
 
-👍 to vote.
+[👍 Vote — issue #4](https://github.com/jduffie/home-charging/issues/4)

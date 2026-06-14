@@ -4,13 +4,13 @@ Charging at home isn't one decision, it's a lifecycle. Find the stage you're on,
 open its prompt, paste it into Claude / ChatGPT / any assistant, and fill in the
 `<brackets>`.
 
-| Stage | What you're figuring out | Open |
-|-------|--------------------------|------|
-| 1. Plan & install | what charger, what amperage, how it's wired — handles sub-panels and whether the cord reaches your car's charge port | [prompts/charger-sizing.md](../prompts/charger-sizing.md) |
-| 2. Cost basis | the `$/kWh` number for what charging actually costs (unsure of yours? estimate it) | [rates/](../rates/) · [prompts/rate-estimate.md](../prompts/rate-estimate.md) |
-| 3. Configure | your specific charger's setup / load management | *still being filled in* → [charger/](../charger/) |
-| 4 & 6. Operate & optimize | *when* to charge to hit off-peak rates, and whether to switch utility plans | [prompts/when-to-charge.md](../prompts/when-to-charge.md) |
-| 5. Monitor | tracking usage / cost over time | *on the roadmap* → [roadmap.md](roadmap.md) |
+| Stage | The question you have | Open |
+|-------|-----------------------|------|
+| 1. Plan & install | Getting a charger in — which one, and wired safely | [prompts/charger-sizing.md](../prompts/charger-sizing.md) |
+| 2. Cost basis | What charging actually costs you | [rates/](../rates/) · [prompts/rate-estimate.md](../prompts/rate-estimate.md) |
+| 3. Configure | Setting up the charger once it's in | *still being filled in* → [charger/](../charger/) |
+| 4 & 6. Operate & optimize | Charging at the cheapest time, on the right plan | [prompts/when-to-charge.md](../prompts/when-to-charge.md) |
+| 5. Monitor | Keeping an eye on usage and cost over time | *on the roadmap* → [roadmap.md](roadmap.md) |
 
 ## How to use a prompt
 
