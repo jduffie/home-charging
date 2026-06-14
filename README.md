@@ -1,13 +1,10 @@
 # home-charging
 
-Vehicle-agnostic shared context for the **whole home-charging lifecycle** — plan,
-install, configure, operate, monitor, optimize — not just buying a charger. Also
-holds the canonical `$/kWh` rate that vehicle Expense dashboards reference.
+Home EV charging across the **whole lifecycle** — plan, install, configure,
+operate, monitor, optimize. Not just buying a charger.
 
-Hardware-neutral: the guidance works with any smart charger. The specific device
-for *this* install (setup, load management) lives in [charger/](charger/).
-
-Dependency direction: vehicles depend on this repo. Never the reverse.
+Works with any smart charger. The specific device for this install lives in
+[charger/](charger/).
 
 **Status: scaffold.**
 
