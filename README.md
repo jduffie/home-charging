@@ -10,8 +10,6 @@ Dependency direction: vehicles depend on this repo. Never the reverse.
 
 **Status: scaffold.**
 
-New here / just want to charge at home? → **[docs/start-here.md](docs/start-here.md)**
-
 ## I want to charge at home. The lifecycle:
 
 | Stage | The question you have | Where it's answered |
@@ -26,6 +24,16 @@ New here / just want to charge at home? → **[docs/start-here.md](docs/start-he
 Situational stages ship a copy-paste **prompt** (depends on *your* home); local
 stages hold the concrete facts for this install; the rest is **interest-gauged**
 on the [roadmap](docs/roadmap.md) — nothing there gets built until it's voted.
+
+## How to use a prompt
+
+1. Open the prompt file linked above and copy the fenced block.
+2. Paste it into any assistant (Claude, ChatGPT, …).
+3. It interviews you a few questions at a time — answer what you know, and it asks
+   for the rest before giving you an answer.
+
+On mobile and just want the raw text? Swap `github.com/.../blob/` for
+`raw.githubusercontent.com/...` in the link.
 
 > ⚠️ Informational only — **not** professional advice. Electrical work is
 > hazardous; verify everything with a licensed electrician and your local AHJ.
