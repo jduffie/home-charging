@@ -53,8 +53,8 @@ Once you have what you need, tell me:
 11. A short shopping checklist and the open questions you still need answered.
 
 Be specific with numbers. Flag anything that requires a licensed electrician or a
-local code check rather than guessing. If I already own a charger (e.g. Emporia
-Pro), plan around its capabilities instead of recommending new hardware.
+local code check rather than guessing. If I already own a charger, plan around its
+capabilities instead of recommending new hardware.
 ```
 
 ## Notes

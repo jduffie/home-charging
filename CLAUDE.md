@@ -31,7 +31,8 @@ a `prompts/` file; **local/concrete** → `rates/`, `charger/`, `electrical/`;
 **not-yet-built** → an interest-gauged `docs/roadmap.md` item. Keep the README
 stage table and this list in sync when stages move between buckets.
 
-Hardware: Emporia Pro w/ load management (functionality TBD).
+Hardware-neutral guidance; the specific device for this install lives in
+`charger/` (currently TBD).
 
 **Status: scaffold.**
 

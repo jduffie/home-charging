@@ -29,7 +29,7 @@ Capture per-session data (date, kWh delivered, duration, cost at the canonical
 
 ## Load-management visibility
 
-Surface what the Emporia Pro's load management is actually doing — when it
+Surface what the charger's load management is actually doing — when it
 throttles, by how much, and why — instead of it being an invisible black box.
 
 [👍 Vote — issue #2](https://github.com/jduffie/home-charging/issues/2)
@@ -47,7 +47,7 @@ and external spreadsheets, using the canonical `$/kWh` rate.
 
 ## Home Assistant integration
 
-Pull the Emporia Pro / energy data into Home Assistant for automation,
+Pull the charger / energy data into Home Assistant for automation,
 dashboards, and alerts.
 
 [👍 Vote — issue #4](https://github.com/jduffie/home-charging/issues/4)
