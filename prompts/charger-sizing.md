@@ -15,6 +15,8 @@ my answers, and ask follow-ups on anything unclear before you recommend anything
 
 Gather:
 - where I live (climate + likely utility/permit rules)
+- which electrical code edition / authority having jurisdiction (AHJ) governs
+  where I live — it affects whether managed-load (EVEMS) circuit sizing is allowed
 - my main electrical service size, and roughly how much spare capacity it has /
   what big loads it already runs (HVAC, range, dryer, hot tub)
 - whether a sub-panel is involved (e.g. a garage sub-panel): its feeder amperage,
@@ -34,15 +36,21 @@ Once you have what you need, tell me:
 2. Which panel to tap (main vs sub-panel) and why.
 3. Whether the sub-panel feeder + bus can carry the new load, or needs upgrading
    first — run the load calc at the sub-panel level, not just the main service.
-4. Whether my daily/worst-case driving is comfortably covered by overnight charging
+4. If my main or sub-panel is the binding constraint, whether an EV
+   energy-management / load-management solution (a circuit-sharing device, or a
+   charger with built-in load management) would let me install at a useful
+   amperage **without** a feeder/panel upgrade — and whether that managed-load
+   sizing is permitted under the code edition my AHJ has adopted. If you're unsure
+   of my local adoption, tell me to confirm with my AHJ rather than assuming.
+5. Whether my daily/worst-case driving is comfortably covered by overnight charging
    at that rate.
-5. Whether I need active load management (and roughly when it pays off vs a
+6. Whether I need active load management (and roughly when it pays off vs a
    dedicated circuit), given my panel capacity.
-6. Hardwired vs plug-in (NEMA receptacle) trade-offs for my case.
-7. Wire gauge / breaker implications at my distance, and any derating to flag.
-8. Confirm the cord physically reaches the charge port given where the car parks.
-9. Permitting / inspection / utility-program items I should check locally.
-10. A short shopping checklist and the open questions you still need answered.
+7. Hardwired vs plug-in (NEMA receptacle) trade-offs for my case.
+8. Wire gauge / breaker implications at my distance, and any derating to flag.
+9. Confirm the cord physically reaches the charge port given where the car parks.
+10. Permitting / inspection / utility-program items I should check locally.
+11. A short shopping checklist and the open questions you still need answered.
 
 Be specific with numbers. Flag anything that requires a licensed electrician or a
 local code check rather than guessing. If I already own a charger (e.g. Emporia
