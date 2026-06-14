@@ -1,8 +1,8 @@
 # Start here — charging at home
 
 Charging at home isn't one decision, it's a lifecycle. Find the stage you're on,
-open its prompt, paste it into Claude / ChatGPT / any assistant, and fill in the
-`<brackets>`.
+open its prompt, and paste it into Claude / ChatGPT / any assistant — it'll
+interview you for the details it needs, then reason about your situation.
 
 | Stage | The question you have | Open |
 |-------|-----------------------|------|
@@ -15,8 +15,9 @@ open its prompt, paste it into Claude / ChatGPT / any assistant, and fill in the
 ## How to use a prompt
 
 1. Open the file, copy the fenced block.
-2. Paste into any assistant; fill in every `<bracket>` with your home/car details.
-3. It asks for anything missing, then reasons about *your* situation.
+2. Paste it into any assistant.
+3. It interviews you a few questions at a time — answer what you know, and it asks
+   for the rest before giving you an answer.
 
 On mobile and just want the raw text? Swap `github.com/.../blob/` for
 `raw.githubusercontent.com/...` in the link.

@@ -1,23 +1,23 @@
 # Rate estimate — copy-paste prompt
 
 Use to estimate your blended `$/kWh` for EV cost math when you don't have a clean
-number. Paste the prompt below into Claude, ChatGPT, or any assistant, fill in the
-`<brackets>`, and let it work out a single number you can drop into `rates/`.
+number. Paste the prompt below into Claude, ChatGPT, or any assistant and let it
+interview you, then work out a single number you can drop into `rates/`.
 
 ```
 You are helping me work out a single blended $/kWh for home EV charging cost math.
-Ask me for anything missing, then give one number plus caveats.
+Don't make me fill in a form — interview me. Ask for the details below a few at a
+time, wait for my answers, and ask follow-ups before giving a number.
 
-My situation:
-- Utility / plan: <utility name and rate plan name, if known>
-- Recent bill: total <$ amount> for <total kWh used> over the billing period
-- Rate structure: <flat? time-of-use (TOU)? tiered? demand charges?> — list the
-  per-kWh prices and any thresholds/hours if you have them
-- Solar: <none / net-metered solar / battery> (and rough offset if known)
-- EV-specific rate: <is there a separate EV / off-peak charging plan available, and
-  am I on it?>
+Gather:
+- my utility and rate plan name, if I know them
+- a recent bill: total $ amount for total kWh used over the billing period
+- my rate structure (flat, time-of-use, tiered, demand charges) and the per-kWh
+  prices + any thresholds/hours that apply
+- whether I have solar or a home battery, and rough offset
+- whether my utility offers a separate EV / off-peak charging plan, and if I'm on it
 
-Please tell me:
+Once you have what you need, tell me:
 1. A single blended $/kWh I should use as my home rate constant, and how you got it.
 2. Whether a TOU/EV plan would meaningfully change that number if I charge mostly
    overnight, and roughly by how much.

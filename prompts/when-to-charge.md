@@ -5,33 +5,31 @@ tiered rate — and whether a different utility plan would save you money. This 
 the operating side of home charging, separate from sizing the charger
 ([charger-sizing.md](charger-sizing.md)) and from picking the single blended
 number for cost math ([rate-estimate.md](rate-estimate.md)). Paste the prompt
-below into Claude, ChatGPT, or any assistant and fill in the `<brackets>`.
+below into Claude, ChatGPT, or any assistant and let it interview you.
 
 These are starting points. Confirm current rate plans and enrollment rules with
 your utility before switching.
 
 ```
 You are helping me decide when to charge my EV at home to minimize cost, and
-whether I'm on the right utility rate plan. Ask me for anything missing, then give
-a concrete charging schedule and a plan recommendation with reasoning.
+whether I'm on the right utility rate plan. Don't make me fill in a form —
+interview me. Ask for the details below a few at a time, wait for my answers, and
+ask follow-ups before recommending a schedule.
 
-My situation:
-- Utility / current plan: <utility name, plan name>
-- Rate structure: <flat | TOU | tiered>. If TOU/tiered, list the per-kWh prices
-  and the hours/thresholds for each window <e.g. off-peak $0.11 11pm-6am,
-  peak $0.32 4-9pm, shoulder $0.19 otherwise>
-- Other EV-specific or whole-home plans my utility offers that I could switch to:
-  <names + prices if known, or "unsure">
-- Charging need: ~<kWh per day, or daily miles + car efficiency>
-- Window available: car is plugged in from <time> to <time> on a typical night
-- Hard deadline: I need <target % or miles> ready by <departure time>
-- Charger/car scheduling: <does the charger or the car support scheduled /
-  delayed-start charging? app, EVSE, or in-car?>
-- Charge rate: <charger amperage / kW it actually delivers>
-- Solar / battery: <none | net-metered solar | home battery> and rough offset
-- Goal priority: <lowest cost | fastest done | least grid use | battery longevity>
+Gather:
+- my utility and current plan name
+- my rate structure (flat, TOU, tiered); if TOU/tiered, the per-kWh prices and the
+  hours/thresholds for each window (off-peak, peak, shoulder)
+- other EV-specific or whole-home plans my utility offers that I could switch to
+- my charging need (kWh per day, or daily miles + car efficiency)
+- the window the car is plugged in on a typical night
+- any hard deadline (target % or miles ready by a departure time)
+- whether the charger or the car supports scheduled / delayed-start charging
+- the charge rate the charger actually delivers (amps / kW)
+- whether I have solar or a home battery, and rough offset
+- my goal priority (lowest cost, fastest done, least grid use, battery longevity)
 
-Please tell me:
+Once you have what you need, tell me:
 1. The cheapest charging schedule that still meets my deadline, given my windows
    and charge rate (be specific about start/stop times).
 2. Whether my available window is long enough to deliver my daily kWh at my charge

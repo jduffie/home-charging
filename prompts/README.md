@@ -2,7 +2,7 @@
 
 Copy-paste, vendor-neutral LLM prompts for the situational questions this repo
 deliberately does not answer in prose. Paste one into Claude, ChatGPT, or any
-assistant, fill in the `<brackets>`, and let it reason about your situation.
+assistant — it interviews you for what it needs, then reasons about your situation.
 
 ## Prompts
 

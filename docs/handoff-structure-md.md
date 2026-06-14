@@ -44,6 +44,19 @@ Every stage lands in exactly one of three buckets:
    (operating lives in a prompt; TOU cost-math is a voted roadmap item, *not* a
    `rates/` change).
 
+## Second update (added later) — prompts format changed to interview-style
+
+The owner changed the prompt format: prompts no longer present `<bracketed>`
+blanks for the user to pre-fill. Instead the prompt **instructs the assistant to
+interview the user** — ask for the inputs a few at a time, wait for answers, then
+recommend. The input list becomes the assistant's gather-checklist.
+
+`STRUCTURE.md` line ~119 documents the old standard ("a fenced block containing
+the prompt with `<bracketed>` variables the user fills in"). Please update it to
+describe the interview-style format instead. The repo's own `CLAUDE.md` "Prompts
+format" rule and all three prompt files have already been updated in
+`repos/home-charging` (commit on `main`) — match `STRUCTURE.md` to them.
+
 ## Optional, your call
 
 The workspace `CLAUDE.md` "Asset profiles" charger row currently reads

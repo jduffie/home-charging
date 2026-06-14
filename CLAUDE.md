@@ -11,9 +11,11 @@
   charger sizing) ship a copy-paste prompt under `prompts/`, NEVER prose. We do
   not write advice essays.
 - **Prompts format:** one file per prompt. A one-line purpose, then a single
-  fenced block with `<bracketed>` vars the user fills in, vendor-neutral. End the
-  prompt by asking the assistant for open questions / what else it needs — these
-  are starting points, not authoritative answers.
+  fenced block, vendor-neutral. The prompt **interviews the user** — it instructs
+  the assistant to ask for the inputs a few at a time and wait for answers, NOT to
+  present `<bracketed>` blanks for the user to pre-fill. List the inputs as the
+  assistant's gather-checklist. End by asking the assistant for open questions /
+  what else it needs — these are starting points, not authoritative answers.
 - **Roadmap is interest-gauged:** `docs/roadmap.md` drafts an issue with "👍 to
   vote." Don't build a roadmap item until it's voted.
 

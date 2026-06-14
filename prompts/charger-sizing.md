@@ -2,36 +2,34 @@
 
 Use when deciding what home EV charger to buy and how to wire it. The answer
 depends on your home, car, and habits, so this isn't something a repo can answer
-directly — paste the prompt below into Claude, ChatGPT, or any assistant, fill in
-the `<brackets>`, and let it reason about your specific situation.
+directly — paste the prompt below into Claude, ChatGPT, or any assistant and let
+it interview you about your situation, then reason from your answers.
 
 These are starting points. Confirm anything load- or code-related with a licensed
 electrician before you buy or wire.
 
 ```
-You are helping me size and plan a home Level 2 EV charger install. Ask me for
-anything missing, then give a concrete recommendation with reasoning.
+You are helping me size and plan a home Level 2 EV charger install. Don't make me
+fill in a form — interview me. Ask for the details below a few at a time, wait for
+my answers, and ask follow-ups on anything unclear before you recommend anything.
 
-My situation:
-- Location: <city, state/country>  (note climate + likely utility/permit rules)
-- Main service: <amps, e.g. 200A> with roughly
-  <spare capacity / known large loads like HVAC, range, dryer, hot tub>
-- Sub-panel involved? <none | garage sub-panel fed by ___A feeder,
-  ___-space bus, ~___ spare breaker spaces>
-- Which panel is closer to the install spot, and which do you intend to feed from?
-- Charger mount location: <wall in garage / outside wall / driveway pedestal / etc.>
-- Where the car parks relative to that, and the charge-port location on the
-  vehicle <front/rear, driver/passenger side>
-- Cord length needed to reach the port from the mount: <approx feet>
-- Wire run from the panel you'd feed from to the charger: <approx feet>
-- Vehicle(s): <make/model/year>, onboard AC charger max <kW if known>,
-  battery <kWh if known>
-- Driving: ~<daily miles>, typically parked at home <hours/night> to charge,
-  worst-case day <miles>
-- Goals: <future-proofing? second EV later? solar? lowest cost? fastest charge?>
-- Constraints: <renting? HOA? budget? DIY vs electrician?>
+Gather:
+- where I live (climate + likely utility/permit rules)
+- my main electrical service size, and roughly how much spare capacity it has /
+  what big loads it already runs (HVAC, range, dryer, hot tub)
+- whether a sub-panel is involved (e.g. a garage sub-panel): its feeder amperage,
+  bus rating, and roughly how many spare breaker spaces
+- which panel is closer to the install spot, and which I intend to feed from
+- where the charger will mount, where the car parks relative to it, and the
+  charge-port location on the vehicle (front/rear, driver/passenger side)
+- the cord length needed to reach the port, and the wire run from the panel I'd
+  feed from to the charger
+- my vehicle(s), onboard AC charge rate, and battery size
+- my driving: daily miles, hours parked at home to charge, worst-case day
+- my goals (future-proofing, second EV later, solar, lowest cost, fastest charge)
+- my constraints (renting, HOA, budget, DIY vs electrician)
 
-Please tell me:
+Once you have what you need, tell me:
 1. Recommended charger amperage and circuit size (and why this, not more/less).
 2. Which panel to tap (main vs sub-panel) and why.
 3. Whether the sub-panel feeder + bus can carry the new load, or needs upgrading
@@ -47,11 +45,11 @@ Please tell me:
 10. A short shopping checklist and the open questions you still need answered.
 
 Be specific with numbers. Flag anything that requires a licensed electrician or a
-local code check rather than guessing.
+local code check rather than guessing. If I already own a charger (e.g. Emporia
+Pro), plan around its capabilities instead of recommending new hardware.
 ```
 
 ## Notes
 - Vendor-neutral on purpose — works in any assistant.
-- If you already own a specific charger (e.g. Emporia Pro), add that as a
-  constraint so the assistant plans around its capabilities instead of recommending
-  hardware.
+- It interviews you rather than asking you to pre-fill a form — so you don't need
+  every number handy up front; answer what you know and it'll ask for the rest.

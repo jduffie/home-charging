@@ -14,14 +14,14 @@ New here / just want to charge at home? → **[docs/start-here.md](docs/start-he
 
 ## I want to charge at home. The lifecycle:
 
-| Stage | The question | Where it's answered |
-|-------|--------------|---------------------|
-| 1. Plan & install | Can I? what charger? how is it wired? | PROMPT → [prompts/charger-sizing.md](prompts/charger-sizing.md) |
-| 2. Cost basis | what `$/kWh` for cost math? | local → [rates/](rates/) · unsure? → [prompts/rate-estimate.md](prompts/rate-estimate.md) |
-| 3. Configure hardware | Emporia Pro setup, load management | local, TBD → [charger/](charger/) · also [electrical/](electrical/) for circuit/wiring/panel |
-| 4. Operate | *when* do I charge? schedule to off-peak? | PROMPT → [prompts/when-to-charge.md](prompts/when-to-charge.md) |
-| 5. Monitor | usage, cost, what load-mgmt did, history | roadmap → [docs/roadmap.md](docs/roadmap.md) |
-| 6. Optimize | right TOU plan? shift load? | PROMPT → [prompts/when-to-charge.md](prompts/when-to-charge.md) · TOU cost math: roadmap |
+| Stage | The question you have | Where it's answered |
+|-------|-----------------------|---------------------|
+| 1. Plan & install | Getting a charger in — which one, and wired safely | PROMPT → [prompts/charger-sizing.md](prompts/charger-sizing.md) |
+| 2. Cost basis | What charging actually costs you | local → [rates/](rates/) · unsure? → [prompts/rate-estimate.md](prompts/rate-estimate.md) |
+| 3. Configure hardware | Setting up the charger once it's in | local, TBD → [charger/](charger/) · also [electrical/](electrical/) for circuit/wiring/panel |
+| 4. Operate | Charging at the cheapest time of day | PROMPT → [prompts/when-to-charge.md](prompts/when-to-charge.md) |
+| 5. Monitor | Keeping an eye on usage and cost | roadmap → [docs/roadmap.md](docs/roadmap.md) |
+| 6. Optimize | Being on the right rate plan | PROMPT → [prompts/when-to-charge.md](prompts/when-to-charge.md) · TOU cost math: roadmap |
 
 Situational stages ship a copy-paste **prompt** (depends on *your* home); local
 stages hold the concrete facts for this install; the rest is **interest-gauged**
