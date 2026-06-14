@@ -1,7 +1,8 @@
 # home-charging
 
-Vehicle-agnostic shared context for home charging + energy. Holds the canonical
-`$/kWh` rate that vehicle Expense dashboards reference.
+Vehicle-agnostic shared context for the **whole home-charging lifecycle** — plan,
+install, configure, operate, monitor, optimize — not just buying a charger. Also
+holds the canonical `$/kWh` rate that vehicle Expense dashboards reference.
 
 Hardware: Emporia Pro w/ load management (functionality TBD).
 
@@ -9,9 +10,17 @@ Dependency direction: vehicles depend on this repo. Never the reverse.
 
 **Status: scaffold.**
 
-## I want to charge at home. How do I…?
+## I want to charge at home. The lifecycle:
 
-- **size / install a charger?** → it's situational, depends on your home → PROMPT → [prompts/charger-sizing.md](prompts/charger-sizing.md)
-- **what `$/kWh` rate should I use for cost math?** → local, the canonical editable constant → [rates/](rates/)
-- **set up the Emporia Pro (integration, load management)?** → local, TBD → [charger/](charger/)
-- **figure out circuit / wiring / panel + load?** → local, TBD → [electrical/](electrical/)
+| Stage | The question | Where it's answered |
+|-------|--------------|---------------------|
+| 1. Plan & install | Can I? what charger? how is it wired? | PROMPT → [prompts/charger-sizing.md](prompts/charger-sizing.md) |
+| 2. Cost basis | what `$/kWh` for cost math? | local → [rates/](rates/) · unsure? → [prompts/rate-estimate.md](prompts/rate-estimate.md) |
+| 3. Configure hardware | Emporia Pro setup, load management | local, TBD → [charger/](charger/) · also [electrical/](electrical/) for circuit/wiring/panel |
+| 4. Operate | *when* do I charge? schedule to off-peak? | PROMPT → [prompts/when-to-charge.md](prompts/when-to-charge.md) |
+| 5. Monitor | usage, cost, what load-mgmt did, history | roadmap → [docs/roadmap.md](docs/roadmap.md) |
+| 6. Optimize | right TOU plan? shift load? | PROMPT → [prompts/when-to-charge.md](prompts/when-to-charge.md) · TOU cost math: roadmap |
+
+Situational stages ship a copy-paste **prompt** (depends on *your* home); local
+stages hold the concrete facts for this install; the rest is **interest-gauged**
+on the [roadmap](docs/roadmap.md) — nothing there gets built until it's voted.

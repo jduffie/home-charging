@@ -14,9 +14,16 @@ anything missing, then give a concrete recommendation with reasoning.
 
 My situation:
 - Location: <city, state/country>  (note climate + likely utility/permit rules)
-- Electrical service: <main panel amperage, e.g. 200A> with roughly
+- Main service: <amps, e.g. 200A> with roughly
   <spare capacity / known large loads like HVAC, range, dryer, hot tub>
-- Panel-to-charger distance: <approx feet, and indoor garage vs outdoor/driveway>
+- Sub-panel involved? <none | garage sub-panel fed by ___A feeder,
+  ___-space bus, ~___ spare breaker spaces>
+- Which panel is closer to the install spot, and which do you intend to feed from?
+- Charger mount location: <wall in garage / outside wall / driveway pedestal / etc.>
+- Where the car parks relative to that, and the charge-port location on the
+  vehicle <front/rear, driver/passenger side>
+- Cord length needed to reach the port from the mount: <approx feet>
+- Wire run from the panel you'd feed from to the charger: <approx feet>
 - Vehicle(s): <make/model/year>, onboard AC charger max <kW if known>,
   battery <kWh if known>
 - Driving: ~<daily miles>, typically parked at home <hours/night> to charge,
@@ -26,14 +33,18 @@ My situation:
 
 Please tell me:
 1. Recommended charger amperage and circuit size (and why this, not more/less).
-2. Whether my daily/worst-case driving is comfortably covered by overnight charging
+2. Which panel to tap (main vs sub-panel) and why.
+3. Whether the sub-panel feeder + bus can carry the new load, or needs upgrading
+   first — run the load calc at the sub-panel level, not just the main service.
+4. Whether my daily/worst-case driving is comfortably covered by overnight charging
    at that rate.
-3. Whether I need active load management (and roughly when it pays off vs a
+5. Whether I need active load management (and roughly when it pays off vs a
    dedicated circuit), given my panel capacity.
-4. Hardwired vs plug-in (NEMA receptacle) trade-offs for my case.
-5. Wire gauge / breaker implications at my distance, and any derating to flag.
-6. Permitting / inspection / utility-program items I should check locally.
-7. A short shopping checklist and the open questions you still need answered.
+6. Hardwired vs plug-in (NEMA receptacle) trade-offs for my case.
+7. Wire gauge / breaker implications at my distance, and any derating to flag.
+8. Confirm the cord physically reaches the charge port given where the car parks.
+9. Permitting / inspection / utility-program items I should check locally.
+10. A short shopping checklist and the open questions you still need answered.
 
 Be specific with numbers. Flag anything that requires a licensed electrician or a
 local code check rather than guessing.

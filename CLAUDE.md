@@ -18,9 +18,16 @@
   vote." Don't build a roadmap item until it's voted.
 
 ## What this repo is
-Vehicle-agnostic shared context for home charging + energy. Holds the canonical
-`$/kWh` rate and the situational-question prompts; owns nothing tied to a
-specific vehicle.
+Vehicle-agnostic shared context for the **whole home-charging lifecycle**, not
+just buying a charger. Six stages: (1) plan & install, (2) cost basis,
+(3) configure hardware, (4) operate — *when* to charge, (5) monitor, (6) optimize.
+Owns the canonical `$/kWh` rate and the situational-question prompts; owns nothing
+tied to a specific vehicle.
+
+Each stage lands in one of three buckets, per the rules above: **situational** →
+a `prompts/` file; **local/concrete** → `rates/`, `charger/`, `electrical/`;
+**not-yet-built** → an interest-gauged `docs/roadmap.md` item. Keep the README
+stage table and this list in sync when stages move between buckets.
 
 Hardware: Emporia Pro w/ load management (functionality TBD).
 
