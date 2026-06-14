@@ -4,7 +4,8 @@ Vehicle-agnostic shared context for the **whole home-charging lifecycle** — pl
 install, configure, operate, monitor, optimize — not just buying a charger. Also
 holds the canonical `$/kWh` rate that vehicle Expense dashboards reference.
 
-Hardware: Emporia Pro w/ load management (functionality TBD).
+Hardware-neutral: the guidance works with any smart charger. The specific device
+for *this* install (setup, load management) lives in [charger/](charger/).
 
 Dependency direction: vehicles depend on this repo. Never the reverse.
 
@@ -28,7 +29,7 @@ on the [roadmap](docs/roadmap.md) — nothing there gets built until it's voted.
 ## How to use a prompt
 
 1. Open the prompt file linked above and copy the fenced block.
-2. Paste it into any assistant (Claude, ChatGPT, …).
+2. Paste it into any AI assistant.
 3. It interviews you a few questions at a time — answer what you know, and it asks
    for the rest before giving you an answer.
 
