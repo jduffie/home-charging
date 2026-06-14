@@ -57,6 +57,23 @@ describe the interview-style format instead. The repo's own `CLAUDE.md` "Prompts
 format" rule and all three prompt files have already been updated in
 `repos/home-charging` (commit on `main`) — match `STRUCTURE.md` to them.
 
+## Third update (added later) — charger-sizing prompt: load-mgmt unlock + AHJ gate
+
+**Informational — no `STRUCTURE.md` action required.** This is prompt *content*,
+not a standard change; logged here so the workspace session has the full picture.
+
+`prompts/charger-sizing.md` was strengthened so that when a main/sub-panel is the
+binding constraint, the assistant surfaces an **EVEMS / load-management solution**
+(circuit-sharing device, or a charger with built-in load management) as the path
+to install *without* a feeder/panel upgrade — gated on whether the user's **AHJ /
+adopted code edition** permits managed-load circuit sizing (else confirm with the
+AHJ). Added an AHJ/code-edition item to the gather-checklist. Stayed vendor-neutral
+(no "buy Emporia"). Commit on `main` in `repos/home-charging`.
+
+If `STRUCTURE.md` ever grows prompt-authoring guidance/examples, this is a good
+exemplar of a reusable convention — *surface the unlock and the regulatory gate,
+vendor-neutrally* — but that's optional, not a required edit.
+
 ## Optional, your call
 
 The workspace `CLAUDE.md` "Asset profiles" charger row currently reads
